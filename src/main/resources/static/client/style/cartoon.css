@@ -1,0 +1,35 @@
+div,ul,dl,dd,dt,li,p,span,h2,h3,h4,h5,h6,img,a,i,b,input {
+	-webkit-transition: all 0.2s ease-in-out 0.01s;
+    -moz-transition: all 0.2s ease-in-out 0.01s;
+    -o-transition: all 0.2s ease-in-out 0.01s;
+    -ms-transition: all 0.2s ease-in-out 0.01s;
+    transition: all 0.2s ease-in-out 0.01s;}
+/* 新闻导航 */
+@keyframes newsnav
+{
+0%   {transform: rotate(0deg);}
+25%  {transform: rotate(20deg);}
+50%  {transform: rotate(0deg);}
+75%  {transform: rotate(-20deg);}
+100% {transform: rotate(0deg);}
+}
+@-webkit-keyframes newsnav
+{
+0%   {-webkit-transform: rotate(0deg);}
+25%  {-webkit-transform: rotate(20deg);}
+50%  {-webkit-transform: rotate(0deg);}
+75%  {-webkit-transform: rotate(-20deg);}
+100% {-webkit-transform: rotate(0deg);}
+}
+@-webkit-keyframes myfirst
+{
+0%   {background:red;}
+25%  {background:yellow;}
+50%  {background:blue;}
+100% {background:green;}
+}
+
+.btn-1{background-color: #de000f;display: inline-block;height: 18px;line-height: 18px;padding: 9px 30px;color: #fff;font-size: 15px;font-weight: bold;font-family: '\5fae\8f6f\96c5\9ed1';}
+a{color: #666;text-decoration: none;}
+.ml10{margin-left: 10px;}
+.ftx-05{color: #005ea7;}

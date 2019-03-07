@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beansProjectDescription>
+	<version>1</version>
+	<pluginVersion><![CDATA[3.7.0.201506251244-RELEASE]]></pluginVersion>
+	<configSuffixes>
+		<configSuffix><![CDATA[xml]]></configSuffix>
+	</configSuffixes>
+	<enableImports><![CDATA[false]]></enableImports>
+	<configs>
+<<<<<<< HEAD
+		<config>java:com.ynyes.ganzhi.Application</config>
+=======
+		<config>java:com.ynyes.kjxjr.Application</config>
+>>>>>>> branch 'master' of ssh://zhangji@192.168.20.101/home/repo/lixue.git
+	</configs>
+	<autoconfigs>
+	</autoconfigs>
+	<configSets>
+	</configSets>
+</beansProjectDescription>

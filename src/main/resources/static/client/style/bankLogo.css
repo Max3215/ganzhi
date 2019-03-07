@@ -1,0 +1,122 @@
+@charset "UTF-8";
+.ui-icon {
+    width:18px;
+    height:18px;
+    position: absolute;
+    left: 10px;
+    top: 7px;
+    background-image:url('images/ui-icons_cd0a0a_256x240.png');
+}
+
+.ui-icon-circle-triangle-s {
+    background-position: -64px -192px;
+}
+
+.ui-icon-circle-triangle-n {
+    background-position: -96px -192px;
+}
+
+.payment_ad {
+    position: absolute;
+    height:18px;
+    left:5px;
+    top:0px;
+    margin-left:15px;
+    color:#fc3f3b;
+}
+
+.pay_type_chk {
+    position:absolute;
+    top:40px;
+    left:2px;
+}
+
+.banklogo {
+    width:133px;
+    height:45px;
+    margin:20px 0px 0px 18px;
+}
+
+#expandBank {
+    padding-top:5px;
+    margin-bottom:5px;
+    cursor:pointer;
+    color:#fc3f3b;
+}
+
+#hideBank{
+    padding-top:5px;
+    margin-bottom:5px;
+    cursor:pointer;
+    color:#fc3f3b;
+    display:none;
+}
+
+.bankOpera {
+    min-height:28px;
+    margin-left:28px;
+    font-size:1.0em;
+}
+
+.paymethod {
+    width:215px;
+    _height:60px;
+    min-height:60px;
+    padding:0;
+    margin:5px 0px 5px 10px;
+    float:left;
+    position:relative;
+    border:1px solid #DADADA;
+}
+
+.bankSelect {
+    height:70px;
+}
+
+.paymethodSelected {
+    border:1px solid #fc3f3b;
+}
+
+.morebank {
+    display:none;
+}
+
+.buttonContainer {
+    padding-top:10px;
+}
+
+.bankOperaMore {
+    padding-top:30px;
+}
+
+.paybox h4 {
+    font-size:14px; 
+    padding:5px 0px 5px 10px;
+    background: #fd3e3e;
+    color:#ffffff;
+}
+
+.hideclear {
+    display:block;
+}
+
+.moreclear {
+    display:none;
+}
+
+#cloud_pay{
+    position:absolute;
+    float:right;
+    top:3px;
+    right:15px;
+}
+
+#confirmChangePayMethod {
+    display: inline-block;
+    padding: 0 20px;
+    border: 1px solid #ddd;
+    position: absolute;
+    font-size: 12px;
+    right: 100px;
+    top: 0px;
+}
